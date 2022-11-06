@@ -24,7 +24,7 @@ header{
     justify-content: space-around;
     align-items: center;
     color: #1F2667;
-    position: fixed;
+    position: relative;
     z-index: 999;
     background: #fff;
 

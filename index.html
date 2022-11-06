@@ -6,74 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 365</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <h1>#Lab365</h1>
+    <header class="bg-gray-900 text-gray-100">
+        <h1 class="text-xl">#Lab365</h1>
         <nav>
             <ul>
-                <li><a href="#atividades">Atividades</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a class="text-gray-100 text-sm" href="#atividades">Atividades</a></li>
+                <li><a class="text-gray-100 text-sm" href="#">Sobre</a></li>
             </ul>
         </nav>
     </header>
     
-    <section class="topic">
+    <section class="topic bg-yellow-200">
         <h2 class="title">Cronograma </h2>
         <h5 class="subtitle">Trilhas rapidas </h5>
     </section>
     
-    <section class="content" style="background-color: #76dce3ab;;">
-
-        <div class="card">
-            <div class="card-header">
+    <section class="content bg-yellow-200">
+        <div class="card bg-black">
+            <div class="card-header text-gray-100">
                 <h3>Floripa mais Tec #0</h3>
             </div>
             <figure>
                 <img src="./image/javas.png" alt="Curso">
             </figure>
             <div class="card-body">
-                <p class="text-body">-Ambientação</p>
+                <p class="text-gray-100">-Ambientação</p>
             </div>
         </div>
         
-        <div class="card">
-            <div class="card-header">
+        <div class="card bg-black">
+            <div class="card-header text-gray-100">
                 <h3>Floripa mais Tec #1</h3>
             </div>
             <figure>
                 <img src="./image/javas.png" alt="Curso">
             </figure>
             <div class="card-body">
-                <p class="text-body">-Trilhas rapida</p>
-                <p class="text-body">-Var , let e const</p>
+                <p class="text-gray-100">-Trilhas rapida</p>
+                <p class="text-gray-100">-Var , let e const</p>
             </div>
         </div>
 
-        <div class="card">
-            <div class="card-header">
+        <div class="card bg-black">
+            <div class="card-header text-gray-100">
                 <h3>Floripa mais Tec #2</h3>
             </div>
             <figure>
                 <img src="./image/javas.png" alt="Curso">
             </figure>
             <div class="card-body">
-                <p class="text-body">-Trilhas rapida</p>
-                <p class="text-body">-Operadores Lógicos</p>
-                <p class="text-body">-Operadores Aritméticos</p>
+                <p class="text-gray-100">-Trilhas rapida</p>
+                <p class="text-gray-100">-Operadores Lógicos</p>
+                <p class="text-gray-100">-Operadores Aritméticos</p>
             </div>
         </div>
 
+        <div class="card bg-black">
+            <div class="card-header text-gray-100">
+                <h3>Floripa mais Tec #3</h3>
+            </div>
+            <figure>
+                <img src="./image/javas.png" alt="Curso">
+            </figure>
+            <div class="card-body">
+                <p class="text-gray-100">-Trilhas rapida</p>
+                <p class="text-gray-100">-Estruturas de rapetição</p>
+                <p class="text-gray-100">-Css</p>
+            </div>
+        </div>
 
     </section>
 
-    <section class="topic">
+    <section class="topic bg-blue-200">
         <h2 class="title">Atividades</h2>
         <h5 class="subtitle">Trilhas rapidas </h5>
     </section>
     
 
-    <section id="atividades" class="content"  style="background-color: #7676e3ab;;">
+    <section id="atividades" class="content bg-blue-200">
 
         <div class="card">
             <a href="./pages/receitas/index.html">
@@ -105,13 +119,13 @@
 
     </section>
 
-    <section class="topic">
+    <section class="topic bg-green-200">
         <h2 class="title">Projetos</h2>
         <h5 class="subtitle">Meus Projetos</h5>
     </section>
     
 
-    <section id="atividades" class="content"  style="background-color: #a5e376ab;">
+    <section id="atividades" class="content bg-green-200">
 
         <div class="card">
             <a href="https://happy-project.netlify.app/">
@@ -172,8 +186,18 @@
 
     </section>
     
-    <footer>
-        <p class="text-body">Desenvolvido por <a href="#">Samuel Nunes</a></p>
+    <footer class="h-80 flex justify-center md:justify-evenly gap-2 bg-gray-900">
+        <div class="text-gray-100">
+            <h1 class="text-xl">Tecnologias</h1>
+            <ul class="flex gap-2">
+                <li>JavaScript</li>
+                <li>Tailwindcss</li>    
+            </ul>
+        </div>
+        <div class="gap-2 text-gray-100">
+            <h1 class="text-xl">Contato</h1>
+            <p class="text-footer">Desenvolvido por <a href="#">@Samuelikz</a></p>
+        </div>
     </footer>
 </body>
 </html>

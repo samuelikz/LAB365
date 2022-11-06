@@ -37,7 +37,6 @@ header{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    border: 1px solid #DFE1E6;
 }
 
 nav > ul{
@@ -90,7 +89,6 @@ figure > img{
     margin: 1rem;
     transition: all 0.3s ease;
     overflow: hidden;
-    border: 2px solid #DFE1E6;
 }
 .card-header{
     display: flex;
@@ -127,6 +125,7 @@ figure > img{
 .card:hover{
     transform: translateY(-10px);
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .title{
@@ -150,5 +149,5 @@ footer {
     background: #fff;
     color: #1F2667;
     border-top: 1px solid #DFE1E6;
-    height: 80px;
+    height: auto;
 }
